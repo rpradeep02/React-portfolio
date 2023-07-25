@@ -6,15 +6,14 @@ import {
   javascript,
   typescript,
   html,
+  ruby,
+  rails,
+  mysql,
+  rspec,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   plansource,
   carrent,
   jobit,
@@ -60,6 +59,26 @@ const services = [
 
 const technologies = [
   {
+    name: "Ruby",
+    icon: ruby,
+  },
+  {
+    name: "Rails",
+    icon: rails,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Rpsec",
+    icon: rspec,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -76,24 +95,8 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -102,14 +105,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
