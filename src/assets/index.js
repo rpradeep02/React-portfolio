@@ -24,9 +24,12 @@ import plansource from "./company/plansource.png";
 import mountblue from "./company/mountblue.png";
 import solartis from "./company/solartis.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import expense from "./expense-app.jpg";
+import gamehub from "./My-game-hub.jpg";
+import blog from "./blog.jpg";
+import quiz from "./quiz.jpg";
+import contact from "./contact.jpg";
+
 
 export {
   logo,
@@ -49,9 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  expense,
+  gamehub,
+  blog,
+  quiz,
+  contact,
   plansource,
   mountblue,
   solartis,

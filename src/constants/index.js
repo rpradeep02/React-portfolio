@@ -15,9 +15,11 @@ import {
   tailwind,
   git,
   plansource,
-  carrent,
-  jobit,
-  tripguide,
+  expense,
+  gamehub,
+  blog,
+  quiz,
+  contact,
   threejs,
   mountblue,
   solartis,
@@ -153,7 +155,7 @@ const experiences = [
     company_name: "Solartis LLC",
     icon: solartis,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2019 - May 2020",
     points: [
       "Responsible for ensuring the delivery of high-quality products through data verification using Optimix.",
     ],
@@ -189,67 +191,101 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "My Game Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a game-hub application using React, Axios for request and response, and the RAWG API, where users can search for games, choose from genres based on game type, order by relevance, and sort by platform.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Axios",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "RAWGApi",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gamehub,
+    source_code_link: "https://github.com/rpradeep02/Game-Hub-React",
   },
   {
-    name: "Job IT",
+    name: "Expense Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is a React-based Expense App. The main objective of this project is to allow users to sign up or log in and manage their expenses online. They can add, edit, and delete expenses, keeping track of their financial records.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: expense,
+    source_code_link: "https://github.com/rpradeep02/Expense-app",
   },
   {
-    name: "Trip Guide",
+    name: "Blog",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a Ruby on Rails-based blog. The main objective of this project is to allow users to sign up and log in, and then add, edit, and delete articles online. All the articles added by users will be visible on the homepage.",
     tags: [
       {
-        name: "nextjs",
+        name: "Ruby on Rails",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Ruby",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sqlite3",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://github.com/rpradeep02/blog",
+  },
+  {
+    name: "Online Quiz",
+    description:
+      "This is a Django based Online_quiz. The main objective of this project is, the User can attend quiz(MCQ) through online after creating an account or already existing account.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quiz,
+    source_code_link: "https://github.com/rpradeep02/Online_quiz",
+  },
+  {
+    name: "Contact List App",
+    description:
+      "This is a Django based Contact-List-app. The main objective of this project is, the User can search for the particular contact and add,edit,delete contacts through online",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quiz,
+    source_code_link: "https://github.com/rpradeep02/Contact-List-app",
   },
 ];
 
