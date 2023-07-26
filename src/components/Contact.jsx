@@ -17,10 +17,14 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const {name , value} = e.target;
+    const { target } = e;
+    const { name, value } = target;
 
-    setForm({ ...form, [name]: value})
-  }
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,7 +34,7 @@ const Contact = () => {
       'service_s3k5wf5', 
       'template_nbw5fnd',
       {
-        from: form.name,
+        from_name: form.name,
         to_name: 'Pradeep',
         from_email: form.email,
         to_email: 'rpradeep.kumar@outlook.com',
@@ -46,10 +50,10 @@ const Contact = () => {
           name: '',
           email: '',
           message: '',
-        })
+        });
       }, (error) => {
         setLoading(false);
-
+        console.log(error);
         alert('Oops, Something went wrong. Please contact me at rpradeep.kumar@outlook.com')
       })
   }
