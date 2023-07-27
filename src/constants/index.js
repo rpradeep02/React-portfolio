@@ -285,7 +285,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: quiz,
+    image: contact,
     source_code_link: "https://github.com/rpradeep02/Contact-List-app",
   },
 ];
