@@ -1,4 +1,5 @@
 import React from "react";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -17,7 +18,14 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      >
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -54,8 +62,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        
-      </div>
+      </Tilt>
     </motion.div>
   );
 };
@@ -78,11 +85,9 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively. <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Click on the Github icon for source code to the Projects
-          </p>
-        </motion.p>
+          Click on the Github icon for source code to the Projects</p>
 
-        
+        </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
@@ -94,4 +99,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "")
