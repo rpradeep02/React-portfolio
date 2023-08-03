@@ -25,7 +25,6 @@ const App = () => {
         {/* Render other components and content here */}
         {showAlert && (
           <div>
-            <div>Alert: Vercel is a free hosting service. There might be a few 3D model rendering issues. For the best experience, please use a desktop browser.</div>
             <button onClick={handleAlertClose}>OK</button>
           </div>
         )}
