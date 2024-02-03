@@ -23,6 +23,7 @@ import {
   threejs,
   mountblue,
   solartis,
+  csod,
 } from "../assets";
 
 export const navLinks = [
@@ -114,10 +115,24 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
+    company_name: "CornerStone Ondemand",
+    icon: csod,
+    iconBg: "#383E56",
+    date: "Oct 2023 - Present",
+    points: [
+      "Worked on Single Sign-On (SSO), improving user authentication and streamlining onboarding processes.",
+      "Contributed to multilingual support across features, enhancing application accessibility for diverse users.",
+      "Demonstrated proficiency in crafting code of superior quality, minimizing discrepancies and markedly reducing software development life cycle (SDLC) bugs for the Scrum team.",
+      "Elevated the RSpec and Unit test coverages across the codebase, bolstering the overall robustness and reliability of the application.",
+      "Developed Adhoch scripts to simplify common tasks and reduce manual effort.",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "PlanSource",
     icon: plansource,
     iconBg: "#383E56",
-    date: "Jun 2023 - Present",
+    date: "Jun 2023 - Oct 2023",
     points: [
       "Presented a complex feature to CPTO and SVP Engineering, that helped customers create Benefit templates faster and reduced the operations time by 30%.",
       "Excelled at writing high-quality code with minimum discrepancies which significantly reduced SDLC bugs for the scrum team.",

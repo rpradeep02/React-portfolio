@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import plansource from "./company/plansource.png";
 import mountblue from "./company/mountblue.png";
 import solartis from "./company/solartis.png";
+import csod from "./company/csod.png";
 
 import expense from "./expense-app.jpg";
 import gamehub from "./My-game-hub.jpg";
@@ -60,4 +61,5 @@ export {
   plansource,
   mountblue,
   solartis,
+  csod,
 };
