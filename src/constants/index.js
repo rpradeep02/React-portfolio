@@ -122,9 +122,10 @@ const experiences = [
     points: [
       "Worked on Single Sign-On (SSO), improving user authentication and streamlining onboarding processes.",
       "Contributed to multilingual support across features, enhancing application accessibility for diverse users.",
-      "Demonstrated proficiency in crafting code of superior quality, minimizing discrepancies and markedly reducing software development life cycle (SDLC) bugs for the Scrum team.",
-      "Elevated the RSpec and Unit test coverages across the codebase, bolstering the overall robustness and reliability of the application.",
-      "Developed Adhoch scripts to simplify common tasks and reduce manual effort.",
+      "Engineered a feature to sync skills between two custom-built applications using Faraday connection, ensuring seamless data integration.",
+      "Enhanced a continuous learning platform by adding new features and improvements tailored to user restrictions, driving engagement and personalization.",
+      "Implemented dynamic date functionality for content assignments, automatically calculating start and due dates based on the assignment date to accommodate users joining post content expiration.",
+      "Enhanced group-based access control, enabling exclusive content availability to specified user groups."
     ],
   },
   {
