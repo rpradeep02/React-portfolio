@@ -19,6 +19,8 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import elasticsearch from "./tech/elasticsearch.png";
+import PostgresSQL from "./tech/PostgresSQL.png";
 
 import plansource from "./company/plansource.png";
 import mountblue from "./company/mountblue.png";
@@ -47,6 +49,8 @@ export {
   css,
   rspec,
   git,
+  elasticsearch,
+  PostgresSQL,
   html,
   javascript,
   reactjs,

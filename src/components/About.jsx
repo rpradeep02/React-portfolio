@@ -50,10 +50,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a backend developer with 3 years of experience in Ruby on Rails, React, Ruby, and Django, 
-        I am adept at translating complex requirements into scalable code. I possess the ability 
-        to learn new digital products and work independently on high-quality code 
-        and my passion for creating exceptional user experience has received accolades.
+        As a Backend developer with 5 years of experience in Ruby on Rails, React, and Ruby, I am adept at
+        translating complex requirements into scalable code. I strive to create exceptional User Experience through
+        high-quality code and aim to foster this ethos within the team.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

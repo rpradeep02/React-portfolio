@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   ruby,
   rails,
@@ -14,13 +14,15 @@ import {
   reactjs,
   tailwind,
   git,
+  elasticsearch,
+  PostgresSQL,
   plansource,
   expense,
   gamehub,
   blog,
   quiz,
   contact,
-  threejs,
+  // threejs,
   mountblue,
   solartis,
   csod,
@@ -83,6 +85,18 @@ const technologies = [
     icon: mysql,
   },
   {
+    name: "ElasticSearch",
+    icon: elasticsearch,
+  },
+  {
+    name: "PostgresSQL",
+    icon: PostgresSQL,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -95,21 +109,10 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
+
 ];
 
 const experiences = [
