@@ -26,6 +26,7 @@ import {
   mountblue,
   solartis,
   csod,
+  bounteous,
 } from "../assets";
 
 export const navLinks = [
@@ -117,11 +118,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Software Engineer",
+    company_name: "Bounteous x Accolite",
+    icon: bounteous,
+    iconBg: "#383E56",
+    date: "June 2025 - Present",
+    points: [
+      "Enhanced SalesLoft's Conversation Intelligence by improving how AI-processed meeting recordings and transcriptions are synced to the Salesforce. This included adding timestamps and summaries so that all conversation insights are easily accessible.",
+      "Upgraded our Elixir and Erlang environments (Elixir from 1.15 to 1.16 and Erlang from 23 to 24) to ensure a more stable and efficient system.",
+      "Implemented Turnpike in our Elixir repository, enabling the use of Kafka messages to streamline CRM activity syncing, including support for custom objects.",
+      "Developed a public Polar endpoint aggregating CRM entities such as opportunities, accounts, and leads, ensuring faster, more reliable syncing between SalesLoft and external CRM platforms.",
+      "Improved error handling and observability within our CRM sync processes, increasing system resilience and data accuracy for users managing high-volume integrations.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "CornerStone Ondemand",
     icon: csod,
     iconBg: "#383E56",
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - June 2025",
     points: [
       "Worked on Single Sign-On (SSO), improving user authentication and streamlining onboarding processes.",
       "Contributed to multilingual support across features, enhancing application accessibility for diverse users.",
